@@ -13,10 +13,9 @@ Aplikasi ini dibangun menggunakan **Streamlit** dan **Google Gemini API**, denga
 
 ## 📸 Tampilan Aplikasi
 
-| Tampilan Utama | Contoh Percakapan | Roadmap yang Dihasilkan |
-| :---: | :---: | :---: |
-| ![Tampilan Utama Aplikasi](https://raw.githubusercontent.com/username/repo/main/screenshots/01_home_with_sidebar.png) | ![Contoh Percakapan dengan Cera](https://raw.githubusercontent.com/username/repo/main/screenshots/02_example_conversation.png) | ![Contoh Roadmap Karier](https://raw.githubusercontent.com/username/repo/main/screenshots/03_roadmap_output.png) |
-> **Catatan:** Ganti `username/repo/main` dengan path repository GitHub Anda agar gambar tampil.
+| Tampilan Utama | 
+| :---: |
+| ![Tampilan Utama Aplikasi](https://raw.githubusercontent.com/fika-aini/career-pathfinder-ai/blob/main/example_conversation.png) |
 
 ---
 
@@ -46,14 +45,14 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di komputer lokal 
 
 ### 1. Prasyarat
 
-* Pastikan Anda sudah menginstal **Python 3.8** atau versi yang lebih baru.
+* Pastikan Anda sudah menginstal **Python 3.11** atau versi yang lebih baru.
 * Memiliki akun Google dan **API Key** dari Google AI Studio.
 
 ### 2. Kloning dan Instalasi
 
 ```bash
 # 1. Kloning repository ini
-git clone [https://github.com/username/career-pathfinder-ai.git](https://github.com/username/career-pathfinder-ai.git)
+git clone [https://github.com/fika-aini/career-pathfinder-ai.git](https://github.com/fika-aini/career-pathfinder-ai.git)
 cd career-pathfinder-ai
 
 # 2. Instal semua dependensi yang dibutuhkan
@@ -75,9 +74,8 @@ GEMINI_API_KEY = "YOUR_API_KEY_HERE"
 Setelah konfigurasi selesai, jalankan perintah berikut di terminal:
 
 ```bash
-streamlit run app.py
+streamlit run streamlit_react_tools_app.py
 ```
-> Pastikan nama file utama Anda adalah `app.py` atau sesuaikan perintah di atas.
 
 Aplikasi sekarang akan berjalan dan bisa diakses melalui browser di `http://localhost:8501`.
 
@@ -87,15 +85,13 @@ Aplikasi sekarang akan berjalan dan bisa diakses melalui browser di `http://loca
 
 ```
 📦 career-pathfinder-ai/
-├── app.py                     # File utama aplikasi Streamlit
+├── streamlit_react_tools_app.py                    # File utama aplikasi 
+├── streamlit_career_pathfinder.py
 ├── requirements.txt           # Daftar dependensi Python
 ├── .streamlit/
 │   └── secrets.toml           # File untuk menyimpan API Key
-├── screenshots/
-│   ├── 01_home_with_sidebar.png
-│   ├── 02_example_conversation.png
-│   └── 03_roadmap_output.png
-└── README.md                  # File yang sedang Anda baca
+├── example_conversation.png
+└── README.md                  
 ```
 
 ---
