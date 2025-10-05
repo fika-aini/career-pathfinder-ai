@@ -85,7 +85,7 @@ Aplikasi sekarang akan berjalan dan bisa diakses melalui browser di `http://loca
 
 ```
 📦 career-pathfinder-ai/
-├── streamlit_react_tools_app.py                    # File utama aplikasi 
+├── streamlit_react_tools_app.py  # File utama aplikasi 
 ├── streamlit_career_pathfinder.py
 ├── requirements.txt           # Daftar dependensi Python
 ├── .streamlit/
