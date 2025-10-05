@@ -15,7 +15,7 @@ Aplikasi ini dibangun menggunakan **Streamlit** dan **Google Gemini API**, denga
 
 | Tampilan Utama | 
 | :---: |
-| ![Tampilan Utama Aplikasi](https://raw.githubusercontent.com/fika-aini/career-pathfinder-ai/blob/main/example_conversation.png) |
+| ![Tampilan Utama Aplikasi](https://raw.githubusercontent.com/fika-aini/career-pathfinder-ai/main/example_conversation.png) |
 
 ---
 
